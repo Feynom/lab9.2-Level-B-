@@ -49,7 +49,7 @@ int main()
 
     string B_surname;
     int B_speciality;
-    int B_grade_computer_science;
+    int B_third_grade;
 
     int MenuItem;
     do
@@ -92,9 +92,9 @@ int main()
             } while (B_speciality < 0 || B_speciality > 4);
             do
             {
-                cout << "Оцінка з третього предмету: "; cin >> B_grade_computer_science; cout << endl;
-            } while (B_grade_computer_science < 0 || B_grade_computer_science > 5);
-            if (Bin_Search(S, N, B_surname, B_speciality, B_grade_computer_science) == 1)
+                cout << "Оцінка з третього предмету: "; cin >> B_third_grade; cout << endl;
+            } while (B_third_grade < 0 || B_third_grade > 5);
+            if (Bin_Search(S, N, B_surname, B_speciality, B_third_grade) == 1)
                 cout << "Так, такий студень є!" << endl;
             else
                 cout << "Не знайдено такго студента!" << endl;
