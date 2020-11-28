@@ -35,7 +35,7 @@ void Print_first(Students* S, const int N);
 void Phys_Sort(Students* S, const int N);
 int* Index_sort(Students* S, const int N);
 void Print_Index_Sorted(Students* S, int* I, const int N);
-bool Bin_Search(Students* S, const int N, const string surname, const int speciality, const int grade_computer_science);
+bool Bin_Search(Students* S, const int N, const string surname, const int speciality, const int third_grade);
 
 int main()
 {
