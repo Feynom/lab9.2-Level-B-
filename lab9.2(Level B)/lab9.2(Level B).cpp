@@ -97,7 +97,7 @@ int main()
             if (Bin_Search(S, N, B_surname, B_speciality, B_third_grade) == 1)
                 cout << "Так, такий студень є!" << endl;
             else
-                cout << "Не знайдено такго студента!" << endl;
+                cout << "Не знайдено такого студента!" << endl;
             break;
         case 0:
             return 0;
